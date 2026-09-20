@@ -1,4 +1,4 @@
-FROM        --platform=$TARGETOS/$TARGETARCH openjdk:7-jdk
+FROM        --platform=$TARGETOS/$TARGETARCH azul/zulu-openjdk:7
 
 LABEL       author="Robert Jansen" maintainer="rjansengd@gmail.com"
 
